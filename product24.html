@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details du Produit-Chant de Lune</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product img {
+            width: 350px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elégance Personnalisée</h1>
+        <nav> 
+           <ul>
+                <li><a href='accueil.html'>Acceuil</a></li>
+                <li><a href='products.html'>Produits</a></li>
+                <li><a href='contact.html'>Contact</a></li>
+                <li><a href='blog.html'>Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section class='product-detail'>
+    <script>
+        function addToCart() {
+            const product = {
+                name: "Chic Infini",
+                price: 399,
+                image: "path/to/image.jpg"
+            };
+
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            cart.push(product);
+            localStorage.setItem("cart", JSON.stringify(cart));
+
+            alert("Produit ajouté au panier !");
+        }
+    </script>
+</head>
+<body>
+    <div class="product">
+        <h1>Chant de Lune  </h1>
+        <img src="robe24.jpg" alt="Image du produit" />
+        <p>Prix: €399</p>
+                <p><strong>Choisissez votre taille:</strong></p>
+        <select id="taille">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+                <p><strong>Guide des tailles:</strong> <a href='guidetaille.html'>Voir le guide des tailles</a></p>
+
+    
+        <br><br>
+        <a href="checkout.html">Acheter</a>
+    </div>
+</body>
+</html>

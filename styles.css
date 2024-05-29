@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white; /* Fond blanc */
+    color: black; /* Texte noir */
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc; /* Ligne de séparation pour la distinction */
+}
+
+header h1 {
+    margin: 0;
+    color: purple;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black; /* Lien noir pour contraster avec le fond blanc */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-list {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-list h2 {
+    text-align: center;
+    color: purple;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    color: purple;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.details {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: white; /* Fond blanc */
+    color: black; /* Texte noir */
+    text-align: center;
+    padding: 1em 0;
+    border-top: 1px solid #ccc; /* Ligne de séparation pour la distinction */
+}
+
+.button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: darkviolet;
+}
+
+.purchase-button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}

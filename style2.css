@@ -1,0 +1,36 @@
+/* Nouveau fichier CSS pour les styles spécifiques */
+h1, .total-price {
+    color: #800080; /* Couleur pour l'en-tête et le texte "Votre Panier" */
+}
+.cart-item {
+    text-align: center; /* Pour centrer le contenu */
+}
+.cart-item img {
+    width: 200px; /* Taille plus grande pour les images */
+    height: auto; /* Maintient le rapport hauteur-largeur */
+}
+.checkout-button {
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: #800080; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+    text-align: center;
+}
+
+.checkout-button:hover {
+    background-color: #6a006a; /* Changement de couleur au survol */
+}
+.total-price, .checkout-button {
+    display: block;
+    margin: 0 auto; /* Centre le texte et le bouton */
+    text-align: center; /* Centre le texte à l'intérieur du bouton */
+}
+
+.total-price {
+    font-size: 20px; /* Ajuste la taille du texte */
+    margin-top: 20px; /* Ajoute un peu d'espace au-dessus du texte Total */
+}

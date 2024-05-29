@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white; /* Fond blanc */
+    color: black; /* Texte noir */
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc; /* Ligne de séparation pour la distinction */
+}
+
+header h1 {
+    margin: 0;
+    color: purple;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black; /* Lien noir pour contraster avec le fond blanc */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: purple;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: darkviolet;
+}
+
+footer {
+    background-color: white; /* Fond blanc */
+    color: black; /* Texte noir */
+    text-align: center;
+    padding: 1em 0;
+    border-top: 1px solid #ccc; /* Ligne de séparation pour la distinction */
+}
